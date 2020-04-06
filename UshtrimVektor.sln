@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UshtrimVektor", "UshtrimVektor\UshtrimVektor.csproj", "{D358FEC0-6656-4183-B90C-7FD44D415ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D358FEC0-6656-4183-B90C-7FD44D415ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D358FEC0-6656-4183-B90C-7FD44D415ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D358FEC0-6656-4183-B90C-7FD44D415ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D358FEC0-6656-4183-B90C-7FD44D415ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {160779D8-E34D-4003-9D46-042D2C4AD5DD}
+	EndGlobalSection
+EndGlobal
