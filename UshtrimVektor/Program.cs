@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Write a program to find a sequence of neighbor numbers in an array, which has a sum of certain number S.
-/// Example:{4,3,1,4,2,5,8}, S = 11 → {4,2,5}.
-/// The array of numbers and the number S will be provided by the user.
-/// </summary>
+//  Write a program to find a sequence of neighbor numbers in an array, which has a sum of certain number S.
+// Example:{4,3,1,4,2,5,8}, S = 11 → {4,2,5}.
+// The array of numbers and the number S will be provided by the user.
+
 
 namespace UshtrimVektor
 {
@@ -52,7 +51,8 @@ namespace UshtrimVektor
                 if (Sh) break;
             }
 
-            if (Sh) for (int i = a; i <= b; i++) Console.Write("{0},", Vektori[i]);
+            if (Sh)
+                for (int i = a; i <= b; i++) Console.Write("{0},", Vektori[i]);
             else Console.WriteLine("Nuk u gjend shuma qe ju kerkoni.");
             Console.ReadKey();
         }
